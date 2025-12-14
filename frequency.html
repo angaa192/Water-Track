@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Frequency</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="container">
+      <div class="header">
+        <h2 class="title">Frequency</h2>
+        <p class="subtitle">How often do you drink water?</p>
+      </div>
+
+      <div class="card">
+        <div class="option" data-key="frequency" data-next="mood.html">
+          <div class="left">
+            <div class="emoji">1️⃣</div>
+            <div>
+              <div class="label">1 time</div>
+              <div class="desc">Rarely during the day</div>
+            </div>
+          </div>
+          <div class="check">✓</div>
+        </div>
+
+        <div class="option" data-key="frequency" data-next="mood.html">
+          <div class="left">
+            <div class="emoji">2️⃣</div>
+            <div>
+              <div class="label">2 times</div>
+              <div class="desc">Morning + later</div>
+            </div>
+          </div>
+          <div class="check">✓</div>
+        </div>
+
+        <div class="option" data-key="frequency" data-next="mood.html">
+          <div class="left">
+            <div class="emoji">3️⃣</div>
+            <div>
+              <div class="label">3+ times</div>
+              <div class="desc">Regular hydration</div>
+            </div>
+          </div>
+          <div class="check">✓</div>
+        </div>
+
+        <div style="margin-top:12px">
+          <button id="continue" class="btn primary" disabled>Continue →</button>
+        </div>
+      </div>
+    </div>
+
+    <nav class="bottom-nav">
+      <a href="goal.html"><span class="ico">💧</span><span>Daily</span></a>
+      <a href="frequency.html"><span class="ico">🔁</span><span>Frequency</span></a>
+      <a href="mood.html"><span class="ico">😊</span><span>Mood</span></a>
+      <a href="type.html"><span class="ico">🚰</span><span>Type</span></a>
+    </nav>
+  </div>
+
+  <script src="js/select.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>
